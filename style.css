@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(182, 193, 241);
+}
+.container{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 95%;
+    align-items: center;
+}
+.mobile{
+    font-size: 20px;
+    /* border: 1px solid; */
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    background-color: rgb(38, 38, 100);
+}
+.mobile .nama{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.mobile i{
+    font-size: 25px;
+}
+.sidebar .kepala{
+    text-align: center;
+}
+.sidebar{
+    /* border: 1px solid; */
+    /* left: -300px !important; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: rgb(1, 1, 46);
+    color: #fff;
+    display: block;
+    
+}
+li i{
+    margin-right: 10px;
+}
+.sidebar .logo{
+    text-align: center;
+    padding: 15px 0px 30px 0px;
+    font-size: 25px;
+}
+.sidebar img{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: 2px solid #fff;
+}
+.sidebar .nama{
+    padding: 20px;
+    font-size: 20px;
+}
+.sidebar ul{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sidebar ul li{
+    /* border: 1px solid; */
+    padding: 20px;
+}
+.sidebar ul li a{
+    padding: 10px;
+    padding-right: 50px;
+    /* border: 1px solid; */
+    width: 200px;
+    height: 100px;
+    color: #fff;
+}
+.sidebar ul li:hover{
+    background-color: rgb(119, 119, 253);
+    transition: .3s;
+}
+.sidebar .footer{
+    margin-left: 20%;
+    display: inline-block;
+    /* border: 1px solid; */
+    line-height: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.sidebar .footer span{
+    color: rgb(119, 119, 253) ;
+}
+.tombol{
+    /* width: 80px; */
+    display: inline-block;
+    margin-left: 250px;
+    text-align: center;
+}
+.tombol a{
+    /* border: 1px solid; */
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 8px;
+    background-color: rgb(32, 32, 248);
+}
+.tombol a i{
+    margin-right: 10px;
+}
+/* .container-body{
+    padding-left: 270px;
+    
+} */
+.container-body{
+    padding-left: 250px;
+    /* border: 1px solid; */
+}
+.kepalas{
+    color: #fff;
+    /* background-color: aqua; */
+    padding-left: 0px;
+    height: 100vh;
+    background-image: url(img/walpaper5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logos{
+    padding-top: 80px;
+    padding-left: 30px;
+    font-size: 25px;
+}
+h2 .ngetik{
+    color: rgb(236, 103, 103);
+}
+.jdl{
+    /* border: 1px solid; */
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.bar{
+    width: 100%;
+    background-color: gainsboro;
+    border-radius: 30px;
+}
+.html{
+    width: 80%;
+    background-color: green;
+    padding: 8px;
+    text-align: right;
+}
+.py{
+    width: 50%;
+    background-color: rgb(33, 30, 211);
+    padding: 8px;
+    color: #fff;
+    text-align: right;
+}
+.cpp{
+    width: 40%;
+    background-color: rgb(30, 139, 211);
+    padding: 8px;
+    text-align: right;
+}
+.js{
+    width: 10%;
+    background-color: rgb(172, 211, 30);
+    padding: 8px;
+    text-align: right;
+}
+.php{
+    width: 5%;
+    background-color: rgb(3, 16, 77);
+    padding: 8px;
+    text-align: right;
+    color: #fff;
+}
+#babout{
+    /* border: 1px solid #fff; */
+    padding-top: 140px;
+    padding-bottom: 100px;
+    /* padding-top: 200px; */
+}
+#bskil{
+    /* border: 1px solid #fff; */
+    padding-top: 60px;
+    padding-bottom: 100px;
+    /* padding-top: 200px; */
+}
+#bprojek{
+    /* border: 1px solid #fff; */
+    padding-top: 10px;
+    padding-bottom: 100px;
+    /* padding-top: 200px; */
+}
+#bsosmed{
+    /* border: 1px solid #fff; */
+    padding-top: 100px;
+    padding-bottom: 0px;
+    text-align: center;
+    /* padding-top: 200px; */
+}
+#bsekolah{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+#about{
+    padding-top: 100px;
+    margin: auto 30px;
+    /* text-align: center; */
+    display : flex;
+    align-items: center;
+}
+#projek{
+    /* border: 1px solid; */
+    padding-top: 100px;
+    /* margin: auto 30px; */
+    /* width: 900px; */
+    text-align: center;
+    /* display : inline-block; */
+    align-items: center;
+}
+#bsertifikat{
+    padding-top: 300px;
+    /* padding-bottom: 20px; */
+}
+#about img{
+    margin-right: 70px;
+}
+#skil p{
+    margin: 20px 0px;
+}
+#skil{
+    margin: auto;
+    width: 90%;
+    padding-top: 100px;
+}
+#projek img{
+    width: 200px;
+    padding: 10px;
+    /* height: 200px; */
+}
+#sosmed{
+    display: flex;
+    padding-top: 100px;
+    font-size: 20px;
+    /* text-align: center;
+    margin: auto;
+    width: 100%; */
+}
+#sosmed i{
+    margin-right: 10px;
+}
+#sosmed .instagram{
+    margin-right: 20px;
+    text-align: center;
+}
+#sosmed .github{
+    margin-right: 20px;
+    text-align: center;
+}
+#sosmed a{
+    /* border: 1px solid; */
+    border-radius: 8px;
+    background-color: rgb(50, 50, 250);
+    padding: 8px 10px 8px 10px;
+    color: rgb(255, 254, 254);
+}
+.isi{
+    display: flex;
+    margin: auto;
+    /* border: 1px solid; */
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+}
+#sertifikat img{
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+}
+#sertifikat{
+    text-align: center;
+    padding-top: 100px;
+}
+#sekolah{
+    padding-top: 100px;
+    text-align: center;
+}
+#sekolah h3{
+    padding-bottom: 20px;
+}
